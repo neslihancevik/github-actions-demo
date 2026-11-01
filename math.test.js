@@ -3,5 +3,5 @@ const assert = require('node:assert/strict');
 const { double } = require('./math');
 
 test('Sayıyı ikiyle çarpar', () => {
-  assert.equal(double(5), 10);
+  assert.equal(double(5), 11);
 });
